@@ -461,9 +461,10 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: auto;
 
   }
+
   
   .lado-esquerdo-youtube iframe{
     width: 250px;
@@ -473,7 +474,7 @@ section {
   
   .lado-direito-youtube{
     background-color: #fff;
-    height: 360px;
+    height: auto;
     padding: 15px;
     border-radius: 10px;
     margin: 35px;
@@ -619,7 +620,13 @@ section {
   }
 
   #hero {
-    background-image: url(/assets/img/);
+    background-image: url(/assets/img/Group-2.png);
+  }
+}
+
+@media (max-width: 520px) {
+  .div-about-cell{
+    margin: 10px;
   }
 }
 
