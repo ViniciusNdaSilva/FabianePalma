@@ -844,7 +844,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  #C4B5A1;
+  color: #C4B5A1;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1128,7 +1128,6 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  #C4B5A1;
 }
 
 .contact .social-links a:hover {
