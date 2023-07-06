@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #d43076;
+  color: #C4B5A1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #dd5a92;
+  color: #C4B5A1;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 9999;
-  background: #d43076;
+  background: #C4B5A1;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #db528c;
+  background: #C4B5A1;
   color: #fff;
 }
 
@@ -149,7 +149,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d43076;
+  color: #C4B5A1;
 }
 
 .navbar .dropdown ul {
@@ -184,7 +184,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #d43076;
+  color: #C4B5A1;
 }
 
 .navbar .dropdown:hover>ul {
@@ -283,7 +283,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #d43076;
+  color: #C4B5A1;
 }
 
 .navbar-mobile .getstarted,
@@ -318,7 +318,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #d43076;
+  color: #C4B5A1;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -394,7 +394,7 @@ section {
 }
 
 .section-bg {
-  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  background: linear-gradient(180deg, #C4B5A1 5%, #fff 100%);
 }
 
 .logo-youtube {
@@ -412,7 +412,7 @@ section {
   margin-bottom: 15px;
   padding-bottom: 15px;
   position: relative;
-  color: #345676;
+  color: #fff;
 }
 
 .section-title h2::after {
@@ -421,7 +421,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #d43076;
+  background: #C4B5A1;
   bottom: 0;
   left: 0;
 }
@@ -429,6 +429,63 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+
+.container-youtube{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+
+.lado-esquerdo-youtube iframe{
+  width: 560px;
+  height: 315px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.391);
+}
+
+.lado-direito-youtube{
+  background-color: #fff;
+  height: 360px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 35px;
+}
+
+.lado-direito-youtube p {
+  line-height: 25px;
+}
+
+@media (max-width: 767px) {
+  .container-youtube{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+  }
+  
+  .lado-esquerdo-youtube iframe{
+    width: 250px;
+    height: auto;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.391);
+  }
+  
+  .lado-direito-youtube{
+    background-color: #fff;
+    height: 360px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 35px;
+  }
+  
+  .lado-direito-youtube p {
+    line-height: 25px;
+  }
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -562,7 +619,7 @@ section {
   }
 
   #hero {
-    background-image: url(/assets/img/Desktop\ -\ 2.png);
+    background-image: url(/assets/img/);
   }
 }
 
@@ -616,7 +673,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #d43076;
+  border-left: 2px solid #C4B5A1;
   position: relative;
 }
 
@@ -659,7 +716,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #d43076;
+  border: 2px solid #C4B5A1;
 }
 
 /*--------------------------------------------------------------
@@ -689,7 +746,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #d43076;
+  background: #C4B5A1;
   height: 100%;
   border-radius: 0px;
 }
@@ -702,7 +759,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #d43076;
+  background: #C4B5A1;
   transition: all 0.3s ease-in-out;
 }
 
@@ -738,7 +795,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #d43076;
+  color: #C4B5A1;
 }
 
 @media (max-width: 768px) {
@@ -780,7 +837,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #d43076;
+  #C4B5A1;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -892,11 +949,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #d43076;
+  border: 1px solid #C4B5A1;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #d43076;
+  background-color: #C4B5A1;
 }
 
 .portfolio-details .portfolio-info {
@@ -1013,11 +1070,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #d43076;
+  border: 1px solid #C4B5A1;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #d43076;
+  background-color: #C4B5A1;
 }
 
 @media (max-width: 767px) {
@@ -1037,7 +1094,7 @@ section {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #d43076;
+  color: #C4B5A1;
 }
 
 .contact .contact-about p {
@@ -1055,7 +1112,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #d43076;
+  color: #C4B5A1;
   line-height: 0;
   padding: 8px 0;
   margin-right: 4px;
@@ -1064,11 +1121,11 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #d43076;
+  #C4B5A1;
 }
 
 .contact .social-links a:hover {
-  background: #d43076;
+  background: #C4B5A1;
   color: #fff;
 }
 
@@ -1078,7 +1135,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #d43076;
+  color: #C4B5A1;
   line-height: 0;
   margin-right: 15px;
 }
@@ -1138,7 +1195,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #d43076;
+  border-color: #C4B5A1;
 }
 
 .contact .php-email-form button[type=submit] {
