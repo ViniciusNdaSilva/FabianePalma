@@ -661,7 +661,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #dd5a92;
+  background-color: #C4B5A1;
 }
 
 /*--------------------------------------------------------------
@@ -1101,7 +1101,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #dd5a92;
+  background: #C4B5A1;
 }
 
 @keyframes animate-loading {
