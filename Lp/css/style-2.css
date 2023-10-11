@@ -512,6 +512,7 @@ a:focus {
 /*  CTA -3 */
 .cta-3 {
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 .cta-wrapper {
   position: relative;
